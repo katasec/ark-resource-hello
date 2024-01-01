@@ -1,7 +1,7 @@
 
 
 data "local_file" "network_json" {
-  filename = "${path.module}/data.json" // Replace with your file path
+  filename = "${path.module}/configdata.json" // Replace with your file path
 }
 
 locals {
